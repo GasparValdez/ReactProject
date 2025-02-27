@@ -9,3 +9,5 @@ Mediante APIS y JSON se logró hacer este proyecto que incorpora lo siguiente:
 5.- Rutas protegidas, comprobación de datos ingresados en los inputs.
 6.- Encriptación de contraseñas.
 7.- Subida de imágenes con opción de preview.
+
+# ¿Qué esperas para editar este proyecto a tu gusto?:
