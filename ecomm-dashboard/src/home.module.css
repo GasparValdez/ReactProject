@@ -1,0 +1,42 @@
+.Home {
+    display: flex;
+    height: 100vh; /* Que ocupe toda la pantalla */
+    width: 100vw; /* Que ocupe todo el ancho */
+    margin-top: 0;
+}
+
+.iconSpacing {
+    margin-right: 8px; /* Ajusta el espacio según sea necesario */
+  }
+  
+
+.Sidebar {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+}
+
+.Content {
+    flex-grow: 1;
+    margin-left: 220px; /* Para no superponerse con la barra lateral */
+    padding: 20px;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.Content .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.Content .col-md-3 {
+    border: 2px solid white;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}

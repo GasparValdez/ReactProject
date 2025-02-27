@@ -1,0 +1,106 @@
+.logo {
+    width: 213px;
+    height: 36px;
+    background: url('https://i.imgur.com/O9LVyP7.png') no-repeat;
+    margin: 30px auto;
+}
+
+.loginBlock {
+    width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #1b11ab;
+    margin: 0 auto;
+}
+
+.loginBlock h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.loginBlock input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.loginBlock input#username {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.loginBlock input#username:focus {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.loginBlock input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.loginBlock input#password:focus {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.loginBlock input:active, .loginBlock input:focus {
+    border: 1px solid #291fb5;
+}
+
+.loginBlock button {
+    width: 100%;
+    height: 40px;
+    background: #1b11ab;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #291fb5;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.loginBlock button:hover {
+    background: #4346f9;
+}
+
+/* Ajustar el contenedor de la contraseña para que el botón de mostrar/ocultar esté alineado a la derecha */
+.loginBlock .input-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Ajustar el icono del candado para que tenga el mismo tamaño que el del usuario */
+.loginBlock .input-container .icon {
+    font-size: 20px; /* Ajusta este valor si deseas un tamaño diferente */
+    position: absolute;
+    left: 15px; /* Ajusta según sea necesario para alinear con el campo */
+    transform: translateY(-50%); /* Centrado verticalmente */
+}
+
+/* Estilo para el botón de mostrar/ocultar contraseña */
+.loginBlock button.toggle-password {
+    
+    position: absolute;
+   
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
