@@ -1,5 +1,5 @@
 # ReactProject
-Este proyecto fue creado utilizando React para el FrontEnd y Laravel 8 para el BackEnd.
+Este proyecto fue creado utilizando React para el FrontEnd (CARPETA ecomm-dashboard) y Laravel 8 para el BackEnd (CARPETA ecomm-backend).
 Mediante APIS y JSON se logró hacer este proyecto que incorpora lo siguiente:
 # Lo que incluye el proyecto es:
 1. CRUD para Usuarios y Productos.
